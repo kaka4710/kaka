@@ -1,4 +1,6 @@
 # 爬取笔趣阁小说  阴山道士笔记
+
+导入数据所需要的数据库：
 '''
     import json
     import requests
@@ -6,7 +8,7 @@
     import re
     import time
     from bs4 import BeautifulSoup
-
+'''
 
     def get_one_page(url):
         try:
